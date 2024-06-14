@@ -1,13 +1,13 @@
 {
-  "name": "@repo/db",
-  "version": "1.0.0",
-  "main": "index.js",
-  "license": "MIT",
-  "dependencies": {
-    "@prisma/client": "^5.15.0",
-    "prisma": "^5.15.0"
-  },
-  "exports":{
-    "./client":"./index.ts"
-  }
+    "name": "@repo/db",
+    "version": "0.0.0",
+    "dependencies": {
+        "@prisma/client": "^5.11.0"
+    },
+    "devDependencies": {
+        "prisma": "5.11.0"
+    },
+    "exports": {
+        "./client": "./index.ts"
+    }
 }
