@@ -5,8 +5,7 @@
       {
         "name": "next"
       }
-    ],
-    "outDir": "/dist"
+    ]
   },
   "include": [
     "next-env.d.ts",
